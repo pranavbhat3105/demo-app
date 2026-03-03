@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')    // Jenkins credentials ID
-        DOCKER_IMAGE          = 'your-actual-dockerhub-user/demo-app' // <-- CHANGE THIS
+        DOCKER_IMAGE          = 'prb3105/demo-app' // <-- CHANGE THIS
         SONAR_TOKEN           = credentials('sonar-token')         // Jenkins credentials ID
         SONAR_URL             = 'http://sonarqube:9000'
     }
